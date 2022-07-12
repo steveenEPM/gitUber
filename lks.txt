@@ -1,0 +1,5 @@
+Es importante tener en cuenta que git diffpor sí solo no muestra todos los cambios realizados desde su última confirmación, solo los cambios que aún no están preparados. Si ha preparado todos los cambios, git diffno obtendrá ningún resultado.
+
+Para otro ejemplo, si prepara el CONTRIBUTING.mdarchivo y luego lo edita, puede usar git diffpara ver los cambios en el archivo que están preparados y los cambios que no están preparados. Si nuestro entorno se ve así:
+
+hola mundo es es apk git

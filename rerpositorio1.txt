@@ -1,0 +1,14 @@
+Eso crea un directorio llamado
+ libgit2, inicializa un .gitdirectorio dentro de él, 
+ +}extrae todos los datos de ese repositorio y extrae una
+  copia de trabajo de la última versión. Si ingresa al nuevo libgit2directorio que se acaba de crear, verá los archivos del proyecto allí, listos para trabajar o usar.
+
+
+
+
+
+
+
+  Los archivos nuevos que no se rastrean tienen un ??junto a ellos, los archivos nuevos que se agregaron al área de preparación tienen un A, los archivos modificados tienen un My así sucesivamente. Hay dos columnas en la salida: la columna de la izquierda indica el estado del área de preparación y la columna de la derecha indica el estado del árbol de trabajo. Entonces, por ejemplo, en esa salida, el READMEarchivo se modifica en el directorio de trabajo pero aún no se prepara, mientras que el lib/simplegit.rbarchivo se modifica y prepara. Se Rakefilemodificó, se preparó y luego se volvió a modificar, por lo que hay cambios que están preparados y no preparados.
+
+homerso

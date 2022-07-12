@@ -1,0 +1,16 @@
+2.1 Conceptos básicos de Git: obtener un repositorio de Git
+Si solo puede leer un capítulo para comenzar con Git, es este. Este capítulo cubre todos los comandos básicos que necesita para hacer la gran mayoría de las cosas que eventualmente dedicará su tiempo a hacer con Git. Al final del capítulo, debería poder configurar e inicializar un repositorio, comenzar y detener el seguimiento de archivos y preparar y confirmar cambios. También le mostraremos cómo configurar Git para ignorar ciertos archivos y patrones de archivo, cómo deshacer errores rápida y fácilmente, cómo navegar por el historial de su proyecto y ver cambios entre confirmaciones, y cómo empujar y extraer desde repositorios remotos. .
+
+Obtener un repositorio de Git
+Por lo general, obtiene un repositorio de Git de una de estas dos maneras:
+
+Puede tomar un directorio local que actualmente no está bajo control de versiones y convertirlo en un repositorio de Git, o
+
+Puede clonar un repositorio Git existente desde otro lugar.
+
+En cualquier caso, termina con un repositorio de Git en su máquina local, listo para trabajar.
+
+Inicializar un repositorio en un directorio existente
+Si tiene un directorio de proyecto que actualmente no está bajo control de versiones y desea comenzar a controlarlo con Git, primero debe ir al directorio de ese proyecto. Si nunca ha hecho esto, se ve un poco diferente según el sistema que esté ejecutando:
+
+para Linux:

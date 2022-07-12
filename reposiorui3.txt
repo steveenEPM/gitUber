@@ -1,0 +1,10 @@
+Clonación de un repositorio existente
+Si desea obtener una copia de un repositorio de Git existente, por ejemplo, un proyecto al que le gustaría contribuir, el comando que necesita es git clone. Si está familiarizado con otros VCS como Subversion, notará que el comando es "clonar" y no "pagar". Esta es una distinción importante: en lugar de obtener solo una copia de trabajo, Git recibe una copia completa de casi todos los datos que tiene el servidor. Cada versión de cada archivo para el historial del proyecto se despliega de forma predeterminada cuando ejecuta git clone. De hecho, si el disco de su servidor se corrompe, a menudo puede usar casi cualquiera de los clones en cualquier cliente para restablecer el servidor al estado en el que se encontraba cuando fue clonado (puede perder algunos ganchos del lado del servidor y demás, pero todos los datos versionados estarían allí; consulte Obtener Git en un servidorpara más detalles).
+
+Clonas un repositorio con git clone <url>. Por ejemplo, si desea clonar la biblioteca enlazable de Git llamada libgit2, puede hacerlo así:
+
+Es importante tener en cuenta que git diffpor sí solo no muestra todos los cambios realizados desde su última confirmación, solo los cambios que aún no están preparados. Si ha preparado todos los cambios, git diffno obtendrá ningún resultado.
+
+
+vPara otro ejemplo, si prepara el CONTRIBUTING.mdarchivo y luego lo edita, puede usar git diffpara ver los cambios en el archivo que están preparados y los cambios que no están preparados. Si nuestro entorno se ve así:
+
