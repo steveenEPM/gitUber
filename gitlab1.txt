@@ -1,0 +1,9 @@
+ Git en el servidor: los protocolos
+En este punto, debería poder realizar la mayoría de las tareas diarias para las
+ que usará Git. Sin embargo, para poder colaborar en Git, deberá tener un repositorio de Git remoto.
+ Aunque técnicamente puede enviar y extraer cambios de los repositorios de las personas, no se
+ recomienda hacerlo porque puede confundir con bastante facilidad en qué están trabajando si no
+ tiene cuidado. Además, desea que sus colaboradores puedan acceder al repositorio incluso si su
+ computadora está fuera de línea; a menudo es útil tener un repositorio común más confiable.
+ Por lo tanto, el método preferido para colaborar con alguien es configurar un repositorio 
+intermedio al que ambos tengan acceso, y empujar y extraer de él.
